@@ -57,7 +57,7 @@ const Index = () => {
 
           <div className="grid md:grid-cols-3 gap-6">
             {/* Dance Card */}
-            <Card className="p-8 bg-card border-4 border-primary/30 hover:border-primary hover:shadow-pop transition-all hover:-translate-y-2 animate-fade-in">
+            <Card className="p-8 bg-card border-4 border-primary/30 hover:border-primary hover:shadow-xl transition-all hover:-translate-y-2 animate-fade-in">
               <div className="text-center mb-4">
                 <div className="inline-flex p-4 bg-gradient-dance rounded-2xl mb-4 shadow-glow">
                   <Music className="w-8 h-8 text-primary-foreground" />
@@ -66,12 +66,12 @@ const Index = () => {
                 <div className="text-5xl mb-4">💃</div>
               </div>
               <p className="text-muted-foreground leading-relaxed text-center">
-                When that music hits different and you just KNOW you're about to absolutely slay the competition. No cap fr fr.
+                When that music hits different and you just KNOW you're about to absolutely slay the competition.
               </p>
             </Card>
 
             {/* Red Hair Card */}
-            <Card className="p-8 bg-card border-4 border-destructive/30 hover:border-destructive hover:shadow-pop transition-all hover:-translate-y-2 animate-fade-in" style={{ animationDelay: '0.1s' }}>
+            <Card className="p-8 bg-card border-4 border-destructive/30 hover:border-destructive hover:shadow-xl transition-all hover:-translate-y-2 animate-fade-in" style={{ animationDelay: '0.1s' }}>
               <div className="text-center mb-4">
                 <div className="inline-flex p-4 bg-gradient-to-br from-destructive to-primary rounded-2xl mb-4 shadow-glow">
                   <Flame className="w-8 h-8 text-primary-foreground" />
@@ -85,7 +85,7 @@ const Index = () => {
             </Card>
 
             {/* Cat Dreams Card */}
-            <Card className="p-8 bg-card border-4 border-secondary/30 hover:border-secondary hover:shadow-pop transition-all hover:-translate-y-2 animate-fade-in" style={{ animationDelay: '0.2s' }}>
+            <Card className="p-8 bg-card border-4 border-secondary/30 hover:border-secondary hover:shadow-xl transition-all hover:-translate-y-2 animate-fade-in" style={{ animationDelay: '0.2s' }}>
               <div className="text-center mb-4">
                 <div className="inline-flex p-4 bg-gradient-fun rounded-2xl mb-4 shadow-glow">
                   <Cat className="w-8 h-8 text-primary-foreground" />
@@ -94,7 +94,7 @@ const Index = () => {
                 <div className="text-5xl mb-4">😾</div>
               </div>
               <p className="text-muted-foreground leading-relaxed text-center">
-                One day soon there WILL be a grumpy cat to adopt and love. That's literally the dream. Manifesting it rn bestie.
+                One day soon there WILL be a grumpy cat to adopt and love. That's literally the dream. Manifesting it.
               </p>
             </Card>
           </div>
@@ -104,7 +104,7 @@ const Index = () => {
       {/* Stats Section */}
       <section className="py-20 px-4">
         <div className="max-w-4xl mx-auto">
-          <Card className="p-12 bg-gradient-dance text-primary-foreground border-0 shadow-pop">
+          <Card className="p-12 bg-gradient-dance text-primary-foreground border-0 shadow-2xl">
             <h2 className="font-heading font-black text-4xl text-center mb-12">THE STATS</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
               <div>
@@ -131,7 +131,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="py-12 px-4 text-center">
         <div className="max-w-4xl mx-auto space-y-4">
-          <p className="text-3xl font-black font-heading bg-gradient-fun bg-clip-text text-transparent">13 AND THRIVING</p>
+          <p className="text-3xl font-black font-heading bg-gradient-fun bg-clip-text text-transparent">THRIVING</p>
           <div className="flex items-center justify-center gap-3 text-muted-foreground flex-wrap">
             <Sparkles className="w-5 h-5 text-primary" />
             <p className="font-heading text-lg">Living proof that you can dance your way through life and look good doing it</p>
