@@ -14,10 +14,10 @@ const Index = () => {
         <div className="absolute top-48 right-[25%] text-5xl md:text-8xl float-emoji opacity-75" style={{ animationDelay: '0.5s' }}>
           ✨
         </div>
-        <div className="absolute bottom-40 left-[20%] text-5xl md:text-8xl float-emoji opacity-75" style={{ animationDelay: '1s' }}>
+        <div className="absolute top-1/2 -translate-y-1/2 left-[5%] text-5xl md:text-8xl float-emoji opacity-75" style={{ animationDelay: '1s' }}>
           💃
         </div>
-        <div className="absolute bottom-32 right-[25%] text-5xl md:text-8xl float-emoji opacity-75" style={{ animationDelay: '1.5s' }}>
+        <div className="absolute top-1/2 -translate-y-1/2 right-[5%] text-5xl md:text-8xl float-emoji opacity-75" style={{ animationDelay: '1.5s' }}>
           🔥
         </div>
 
