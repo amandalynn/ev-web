@@ -67,21 +67,21 @@ export const removeBackground = async (imageElement: HTMLImageElement): Promise<
     // Apply the mask with threshold + feathering for cleaner edges
     const outputImageData = outputCtx.getImageData(0, 0, outputCanvas.width, outputCanvas.height);
     const data = outputImageData.data;
-    const mask = result[0].mask.data as Float32Array | number[];
+    const maskData = result[0].mask.data;
     const threshold = 0.5; // pixels above this are considered background
     const feather = 6; // pixels
 
     // First pass: create binary mask and distance field initialization
     const width = outputCanvas.width;
     const height = outputCanvas.height;
-    const binary: Uint8Array = new Uint8Array(mask.length);
-    for (let i = 0; i < mask.length; i++) {
-      binary[i] = mask[i] > threshold ? 1 : 0; // 1 = background
+    const binary: Uint8Array = new Uint8Array(maskData.length);
+    for (let i = 0; i < maskData.length; i++) {
+      binary[i] = Number(maskData[i]) > threshold ? 1 : 0; // 1 = background
     }
 
     // Simple feather: for each pixel near boundary, reduce alpha gradually
     // Compute a naive box blur distance approximation in a small window
-    const tmpAlpha: Uint8Array = new Uint8Array(mask.length);
+    const tmpAlpha: Uint8Array = new Uint8Array(maskData.length);
     for (let y = 0; y < height; y++) {
       for (let x = 0; x < width; x++) {
         const idx = y * width + x;
