@@ -57,7 +57,7 @@ const Index = () => {
 
           <div className="grid md:grid-cols-3 gap-6">
             {/* Dance Card */}
-            <Card className="p-8 bg-card border-4 border-primary/30 hover:border-primary hover:shadow-xl transition-all hover:-translate-y-2 animate-fade-in">
+            <Card className="p-8 bg-card border-4 border-primary/30 hover:border-primary hover:shadow-xl transition-all hover:-translate-y-2 hover:scale-105 animate-fade-in">
               <div className="text-center mb-4">
                 <div className="inline-flex p-4 bg-gradient-dance rounded-2xl mb-4 shadow-glow">
                   <Music className="w-8 h-8 text-primary-foreground" />
@@ -71,7 +71,7 @@ const Index = () => {
             </Card>
 
             {/* Red Hair Card */}
-            <Card className="p-8 bg-card border-4 border-destructive/30 hover:border-destructive hover:shadow-xl transition-all hover:-translate-y-2 animate-fade-in" style={{ animationDelay: '0.1s' }}>
+            <Card className="p-8 bg-card border-4 border-destructive/30 hover:border-destructive hover:shadow-xl transition-all hover:-translate-y-2 hover:scale-105 animate-fade-in" style={{ animationDelay: '0.1s' }}>
               <div className="text-center mb-4">
                 <div className="inline-flex p-4 bg-gradient-to-br from-destructive to-primary rounded-2xl mb-4 shadow-glow">
                   <Flame className="w-8 h-8 text-primary-foreground" />
@@ -85,7 +85,7 @@ const Index = () => {
             </Card>
 
             {/* Cat Dreams Card */}
-            <Card className="p-8 bg-card border-4 border-secondary/30 hover:border-secondary hover:shadow-xl transition-all hover:-translate-y-2 animate-fade-in" style={{ animationDelay: '0.2s' }}>
+            <Card className="p-8 bg-card border-4 border-secondary/30 hover:border-secondary hover:shadow-xl transition-all hover:-translate-y-2 hover:scale-105 animate-fade-in" style={{ animationDelay: '0.2s' }}>
               <div className="text-center mb-4">
                 <div className="inline-flex p-4 bg-gradient-fun rounded-2xl mb-4 shadow-glow">
                   <Cat className="w-8 h-8 text-primary-foreground" />
