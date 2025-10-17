@@ -10,14 +10,14 @@ const Index = () => {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-4">
         {/* Floating emojis */}
-        <div className="absolute top-32 left-[25%] text-8xl float-emoji opacity-75">🎉</div>
-        <div className="absolute top-48 right-[25%] text-8xl float-emoji opacity-75" style={{ animationDelay: '0.5s' }}>
+        <div className="absolute top-32 left-[25%] text-5xl md:text-8xl float-emoji opacity-75">🎉</div>
+        <div className="absolute top-48 right-[25%] text-5xl md:text-8xl float-emoji opacity-75" style={{ animationDelay: '0.5s' }}>
           ✨
         </div>
-        <div className="absolute bottom-40 left-[20%] text-8xl float-emoji opacity-75" style={{ animationDelay: '1s' }}>
+        <div className="absolute bottom-40 left-[20%] text-5xl md:text-8xl float-emoji opacity-75" style={{ animationDelay: '1s' }}>
           💃
         </div>
-        <div className="absolute bottom-32 right-[25%] text-8xl float-emoji opacity-75" style={{ animationDelay: '1.5s' }}>
+        <div className="absolute bottom-32 right-[25%] text-5xl md:text-8xl float-emoji opacity-75" style={{ animationDelay: '1.5s' }}>
           🔥
         </div>
 
